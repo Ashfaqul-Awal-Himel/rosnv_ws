@@ -1,0 +1,26 @@
+[0.785s] Invoking command in '/home/himel/rosnv_ws/src/tway_follr': PYTHONPATH=/home/himel/rosnv_ws/build/tway_follr/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/himel/rosnv_ws/install/tway_follr/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tway_follr build --build-base /home/himel/rosnv_ws/build/tway_follr/build install --record /home/himel/rosnv_ws/build/tway_follr/install.log --single-version-externally-managed install_data
+[1.006s] running egg_info
+[1.007s] writing ../../build/tway_follr/tway_follr.egg-info/PKG-INFO
+[1.007s] writing dependency_links to ../../build/tway_follr/tway_follr.egg-info/dependency_links.txt
+[1.007s] writing entry points to ../../build/tway_follr/tway_follr.egg-info/entry_points.txt
+[1.008s] writing requirements to ../../build/tway_follr/tway_follr.egg-info/requires.txt
+[1.008s] writing top-level names to ../../build/tway_follr/tway_follr.egg-info/top_level.txt
+[1.009s] reading manifest file '../../build/tway_follr/tway_follr.egg-info/SOURCES.txt'
+[1.013s] writing manifest file '../../build/tway_follr/tway_follr.egg-info/SOURCES.txt'
+[1.013s] running build
+[1.013s] running build_py
+[1.013s] copying tway_follr/twayfoll.py -> /home/himel/rosnv_ws/build/tway_follr/build/lib/tway_follr
+[1.013s] copying tway_follr/goal_pub.py -> /home/himel/rosnv_ws/build/tway_follr/build/lib/tway_follr
+[1.014s] running install
+[1.014s] running install_lib
+[1.015s] copying /home/himel/rosnv_ws/build/tway_follr/build/lib/tway_follr/twayfoll.py -> /home/himel/rosnv_ws/install/tway_follr/lib/python3.10/site-packages/tway_follr
+[1.015s] copying /home/himel/rosnv_ws/build/tway_follr/build/lib/tway_follr/goal_pub.py -> /home/himel/rosnv_ws/install/tway_follr/lib/python3.10/site-packages/tway_follr
+[1.015s] byte-compiling /home/himel/rosnv_ws/install/tway_follr/lib/python3.10/site-packages/tway_follr/twayfoll.py to twayfoll.cpython-310.pyc
+[1.016s] byte-compiling /home/himel/rosnv_ws/install/tway_follr/lib/python3.10/site-packages/tway_follr/goal_pub.py to goal_pub.cpython-310.pyc
+[1.016s] running install_data
+[1.016s] running install_egg_info
+[1.018s] removing '/home/himel/rosnv_ws/install/tway_follr/lib/python3.10/site-packages/tway_follr-0.0.0-py3.10.egg-info' (and everything under it)
+[1.018s] Copying ../../build/tway_follr/tway_follr.egg-info to /home/himel/rosnv_ws/install/tway_follr/lib/python3.10/site-packages/tway_follr-0.0.0-py3.10.egg-info
+[1.018s] running install_scripts
+[1.036s] writing list of installed files to '/home/himel/rosnv_ws/build/tway_follr/install.log'
+[1.057s] Invoked command in '/home/himel/rosnv_ws/src/tway_follr' returned '0': PYTHONPATH=/home/himel/rosnv_ws/build/tway_follr/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/himel/rosnv_ws/install/tway_follr/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tway_follr build --build-base /home/himel/rosnv_ws/build/tway_follr/build install --record /home/himel/rosnv_ws/build/tway_follr/install.log --single-version-externally-managed install_data

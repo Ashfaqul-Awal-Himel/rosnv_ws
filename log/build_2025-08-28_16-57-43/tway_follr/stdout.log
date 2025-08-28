@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing tway_follr.egg-info/PKG-INFO
+writing dependency_links to tway_follr.egg-info/dependency_links.txt
+writing entry points to tway_follr.egg-info/entry_points.txt
+writing requirements to tway_follr.egg-info/requires.txt
+writing top-level names to tway_follr.egg-info/top_level.txt
+reading manifest file 'tway_follr.egg-info/SOURCES.txt'
+writing manifest file 'tway_follr.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/himel/rosnv_ws/install/tway_follr/lib/python3.10/site-packages/tway-follr.egg-link (link to .)
+Installing tway_follr_node script to /home/himel/rosnv_ws/install/tway_follr/lib/tway_follr
+
+Installed /home/himel/rosnv_ws/build/tway_follr
+running symlink_data
+symbolically linking /home/himel/rosnv_ws/build/tway_follr/resource/tway_follr -> /home/himel/rosnv_ws/install/tway_follr/share/ament_index/resource_index/packages
+symbolically linking /home/himel/rosnv_ws/build/tway_follr/package.xml -> /home/himel/rosnv_ws/install/tway_follr/share/tway_follr

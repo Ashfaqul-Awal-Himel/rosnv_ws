@@ -1,0 +1,32 @@
+[0.566s] Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/colcon_core/executor/__init__.py", line 91, in __call__
+    rc = await self.task(*args, **kwargs)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/site-packages/colcon_core/task/__init__.py", line 93, in __call__
+    return await task_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/site-packages/colcon_ros/task/ament_python/build.py", line 51, in build
+    setup_py_data = get_setup_data(self.context.pkg, env)
+  File "/usr/lib/python3.13/site-packages/colcon_core/task/python/__init__.py", line 20, in get_setup_data
+    return dict(pkg.metadata[key](env))
+                ~~~~~~~~~~~~~~~~~^^^^^
+  File "/usr/lib/python3.13/site-packages/colcon_ros/package_augmentation/ros_ament_python.py", line 57, in getter
+    return get_setup_information(
+        desc.path / 'setup.py', env=env)
+  File "/usr/lib/python3.13/site-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 249, in get_setup_information
+    _setup_information_cache[hashable_env] = _get_setup_information(
+                                             ~~~~~~~~~~~~~~~~~~~~~~^
+        setup_py, env=env)
+        ^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/site-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 301, in _get_setup_information
+    return ast.literal_eval(output)
+           ~~~~~~~~~~~~~~~~^^^^^^^^
+  File "/usr/lib/python3.13/ast.py", line 64, in literal_eval
+    node_or_string = parse(node_or_string.lstrip(" \t"), mode='eval')
+  File "/usr/lib/python3.13/ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+                   _feature_version=feature_version, optimize=optimize)
+  File "<unknown>", line 1
+    No 'requirements-files' section was found. Nothing to do.
+       ^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax

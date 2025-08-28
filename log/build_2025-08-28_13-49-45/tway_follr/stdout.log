@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/tway_follr/tway_follr.egg-info/PKG-INFO
+writing dependency_links to ../../build/tway_follr/tway_follr.egg-info/dependency_links.txt
+writing entry points to ../../build/tway_follr/tway_follr.egg-info/entry_points.txt
+writing requirements to ../../build/tway_follr/tway_follr.egg-info/requires.txt
+writing top-level names to ../../build/tway_follr/tway_follr.egg-info/top_level.txt
+reading manifest file '../../build/tway_follr/tway_follr.egg-info/SOURCES.txt'
+writing manifest file '../../build/tway_follr/tway_follr.egg-info/SOURCES.txt'
+running build
+running build_py
+copying tway_follr/twayfoll.py -> /home/himel/rosnv_ws/build/tway_follr/build/lib/tway_follr
+running install
+running install_lib
+copying /home/himel/rosnv_ws/build/tway_follr/build/lib/tway_follr/twayfoll.py -> /home/himel/rosnv_ws/install/tway_follr/lib/python3.10/site-packages/tway_follr
+byte-compiling /home/himel/rosnv_ws/install/tway_follr/lib/python3.10/site-packages/tway_follr/twayfoll.py to twayfoll.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/himel/rosnv_ws/install/tway_follr/lib/python3.10/site-packages/tway_follr-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/tway_follr/tway_follr.egg-info to /home/himel/rosnv_ws/install/tway_follr/lib/python3.10/site-packages/tway_follr-0.0.0-py3.10.egg-info
+running install_scripts
+Installing tway_follr_node script to /home/himel/rosnv_ws/install/tway_follr/lib/tway_follr
+writing list of installed files to '/home/himel/rosnv_ws/build/tway_follr/install.log'
